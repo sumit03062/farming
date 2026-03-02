@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================= ROOT VARIABLES ================= */
+
+:root {
+    --color-brand-primary: #059669;
+    --color-brand-primary-dark: #047857;
+    --color-brand-primary-light: #10b981;
+
+    --color-bg-soft: #ecfdf5;
+    --color-bg-warm: #fff7ed;
+    --color-bg-light: #f9fafb;
+    --color-bg-white: #ffffff;
+
+    --color-text-primary: #111827;
+    --color-text-secondary: #4b5563;
+    --color-text-muted: #9ca3af;
+
+    --color-border-light: #e5e7eb;
+
+    --color-accent-glow: rgba(16, 185, 129, 0.25);
+    --color-overlay-dark: rgba(0, 0, 0, 0.5);
+
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* ================= CUSTOM UTILITIES ================= */
+
+@layer utilities {
+    /* Backgrounds */
+    .bg-brand {
+        background-color: var(--color-brand-primary);
+    }
+    .bg-brand-dark {
+        background-color: var(--color-brand-primary-dark);
+    }
+    .bg-brand-light {
+        background-color: var(--color-brand-primary-light);
+    }
+
+    .bg-soft {
+        background-color: var(--color-bg-soft);
+    }
+    .bg-warm {
+        background-color: var(--color-bg-warm);
+    }
+    .bg-light {
+        background-color: var(--color-bg-light);
+    }
+    .bg-white-custom {
+        background-color: var(--color-bg-white);
+    }
+
+    /* Text */
+    .text-brand {
+        color: var(--color-brand-primary);
+    }
+    .text-brand-dark {
+        color: var(--color-brand-primary-dark);
+    }
+
+    .text-primary {
+        color: var(--color-text-primary);
+    }
+    .text-secondary {
+        color: var(--color-text-secondary);
+    }
+    .text-muted {
+        color: var(--color-text-muted);
+    }
+
+    /* Borders */
+    .border-light {
+        border-color: var(--color-border-light);
+    }
+
+    /* Shadows */
+    .shadow-soft {
+        box-shadow: var(--shadow-soft);
+    }
+    .shadow-medium {
+        box-shadow: var(--shadow-medium);
+    }
+
+    /* Gradient */
+    .bg-brand-gradient {
+        background: linear-gradient(
+            135deg,
+            var(--color-brand-primary),
+            var(--color-brand-primary-light)
+        );
+    }
+
+    /* Overlay */
+    .overlay-dark {
+        background-color: var(--color-overlay-dark);
+    }
+
+    .glow-brand {
+        box-shadow: 0 0 40px var(--color-accent-glow);
+    }
+}
+
+
+/* ================= CUSTOM SCROLLBAR ================= */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-bg-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-brand-primary);
+    border-radius: 6px;
+    border: 2px solid var(--color-bg-light);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-brand-primary-dark);
+}
+
+/* Firefox Support */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-brand-primary) var(--color-bg-light);
+}
+/* ================= COMPONENTS ================= */
+
+@layer components {
+    .text-shadow-sm {
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-container {
+        overflow: hidden;
+        border-radius: 2rem;
+    }
+
+    .image-hover {
+        transition: transform 0.7s ease;
+    }
+
+    .image-container:hover .image-hover {
+        transform: scale(1.05);
+    }
+
+    /* Swiper Pagination */
+    .heroSwiper .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background: rgba(255, 255, 255, 0.5);
+        opacity: 1;
+        margin: 0 6px !important;
+        transition: all 0.4s ease;
+    }
+
+    .heroSwiper .swiper-pagination-bullet-active {
+        width: 35px;
+        border-radius: 20px;
+        background: #ffffff;
+    }
+}
+
+
+
