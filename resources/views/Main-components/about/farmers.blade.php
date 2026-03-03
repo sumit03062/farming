@@ -5,7 +5,8 @@
 <!-- SECTION : OUR  TEAM -->
 <!-- ========================================== -->
 
-<section class="relative px-6 py-24 overflow-hidden lg:px-10 bg-soft">
+<section class="relative px-6 py-24 overflow-hidden lg:px-10 bg-soft"
+ style="clip-path: polygon(0% 0%, 100% -0%, 100% 100%, 0% 100%);">
 
     <div class="mx-auto max-w-7xl">
 

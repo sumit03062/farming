@@ -100,3 +100,108 @@
     </div>
 
 </section>
+
+
+
+<section class="relative py-24 overflow-hidden text-white bg-brand-dark"  
+ style="clip-path: polygon(0 10%, 100% -10%, 100% 100%, 0% 100%);">
+     <!-- Sloped Background -->
+
+    
+    <div class="px-6 mx-auto max-w-7xl lg:px-8">
+
+        <!-- Header -->
+        <div class="flex flex-col mb-16 lg:flex-row lg:items-center lg:justify-between">
+            <div>
+                <p class="mb-4 text-sm font-semibold tracking-widest text-yellow-400">
+                    OUR SOLUTIONS
+                </p>
+
+                <h2 class="max-w-3xl font-serif text-4xl leading-tight md:text-5xl lg:text-6xl">
+                    Precision Chemistry for <br class="hidden md:block">
+                    Maximum Yield
+                </h2>
+            </div>
+
+            <div class="mt-8 lg:mt-0">
+                <a href="#"
+                   class="inline-flex items-center px-6 py-3 border border-white/40 rounded-full text-sm font-medium hover:bg-white hover:text-[#1F4D36] transition">
+                    View All Products
+                </a>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+            <!-- Card 1 -->
+            <div class="bg-[#295E45] rounded-3xl p-8 hover:scale-[1.02] transition duration-300">
+                <div class="flex items-center justify-center mb-6 rounded-full w-14 h-14 bg-yellow-500/20">
+                    <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path d="M12 9v2m0 4h.01M5.07 19H18.93a2 2 0 001.74-3l-6.93-12a2 2 0 00-3.48 0l-6.93 12a2 2 0 001.74 3z"/>
+                    </svg>
+                </div>
+
+                <h3 class="mb-4 text-xl font-semibold">Crop Protection</h3>
+
+                <p class="mb-6 leading-relaxed text-white/80">
+                    Advanced fungicides and insecticides designed to target specific Indian pests
+                    with minimal environmental footprint.
+                </p>
+
+                <a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-yellow-400 transition-all hover:gap-3">
+                    Learn more
+                    <span>→</span>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-[#295E45] rounded-3xl p-8 hover:scale-[1.02] transition duration-300">
+                <div class="flex items-center justify-center mb-6 rounded-full w-14 h-14 bg-yellow-500/20">
+                    <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path d="M12 2C8 6 6 9 6 12a6 6 0 0012 0c0-3-2-6-6-10z"/>
+                    </svg>
+                </div>
+
+                <h3 class="mb-4 text-xl font-semibold">Plant Nutrition</h3>
+
+                <p class="mb-6 leading-relaxed text-white/80">
+                    Bio-stimulants and micronutrients that fortify crops from within,
+                    ensuring robust growth in varied climatic zones.
+                </p>
+
+                <a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-yellow-400 transition-all hover:gap-3">
+                    Learn more
+                    <span>→</span>
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-[#295E45] rounded-3xl p-8 hover:scale-[1.02] transition duration-300">
+                <div class="flex items-center justify-center mb-6 rounded-full w-14 h-14 bg-yellow-500/20">
+                    <svg class="w-6 h-6 text-yellow-400" fill="none" stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <path d="M20 12H4"/>
+                        <path d="M12 4v16"/>
+                    </svg>
+                </div>
+
+                <h3 class="mb-4 text-xl font-semibold">Soil Enhancers</h3>
+
+                <p class="mb-6 leading-relaxed text-white/80">
+                    Innovative conditioners that restore soil vitality,
+                    improving water retention and microbial health over time.
+                </p>
+
+                <a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-yellow-400 transition-all hover:gap-3">
+                    Learn more
+                    <span>→</span>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
